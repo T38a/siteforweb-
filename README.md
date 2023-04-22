@@ -1,3 +1,3 @@
 # My web site 
-here is where i host my website where i will put stuff
-https://frowningtoad.github.io/siteforweb-/
+Repo containing my websites source code
+tryna push from vs is a nightmare istg

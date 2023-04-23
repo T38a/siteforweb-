@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toadzone</title>
     <style>
-        .center {
+        .content {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -20,17 +21,15 @@
 
         .content button {
             display: block;
-            margin: 0 auto;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="center">
-        <div class="content">
-            <h1>.a#0260</h1>
-            <p>Just another guy on the internet</p>
-            <button onclick="window.open('about:blank', '_blank');">Home</button>
-        </div>
+    <div class="content">
+        <h1>.a#0260</h1>
+        <p>Just another guy on the internet</p>
+        <button onclick="window.open('about:blank', '_blank');">Home</button>
     </div>
 </body>
 </html>

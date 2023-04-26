@@ -1,74 +1,90 @@
-/* Set the background color to light gray */
 body {
-  background-color: #a0a0a0;
-}
-
-/* Set the font to a sans-serif typeface */
-body {
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial, sans-serif;
-}
-
-/* Set the font size to 16 pixels */
-body {
   font-size: 16px;
-}
-
-/* Set the color of text to dark gray */
-body {
   color: #333;
+  margin: 0;
+}
+body {
+  background-color: black;
+  background-image: url("");
 }
 
-/* Set the color of links to a darker shade of gray */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 a {
   color: #666;
 }
 
-/* Set the hover color of links to a lighter shade of gray */
 a:hover {
   color: #999;
 }
 
-/* Add a border to images */
-img {
-  border: 1px solid #ccc;
-}
-
-/* Style headings with a modern sans-serif font */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Set heading colors to dark gray */
 h1, h2, h3 {
   color: #333;
 }
 
-/* Set subheadings to a lighter shade of gray */
 h4, h5, h6 {
   color: #666;
 }
 
-/* Add a box shadow to buttons on hover */
-button:hover {
+button.home-button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
   box-shadow: 0 0 10px #888;
 }
 
-/* Set form fields to a modern sans-serif font */
+button.home-button:hover {
+  background-color: #777;
+  box-shadow: 0 0 15px #888;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+h1, p {
+  text-align: center;
+}
+
+.content button {
+  display: block;
+  margin-top: 20px;
+}
+
 input, select, textarea {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* Set form field border color to gray */
-input, select, textarea {
   border: 1px solid #ccc;
-}
-
-/* Set form field background color to white */
-input, select, textarea {
   background-color: #fff;
 }
 
-/* Add a box shadow to form fields on focus */
 input:focus, select:focus, textarea:focus {
   box-shadow: 0 0 5px #888;
 }

@@ -1,11 +1,25 @@
 body {
-  background-image: url("Content/backround.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #333;
   margin: 0;
+  
+}
+.background-container {
+  background: url('Content/backround.jpg') repeat-x;
+  animation: scrollBackground 200s linear infinite;
+  height: 100vh;
+}
+
+@keyframes scrollBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
 }
 
 #myVideo {

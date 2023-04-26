@@ -2,4 +2,4 @@
 
 Repo containing my websites source code<br>
 
-Trying to push from VS is a nightmare, I swear.
+Alright i can push from vs now found a good plugin to help <3

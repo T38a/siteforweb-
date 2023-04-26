@@ -8,7 +8,7 @@ body {
   
 }
 .background-container {
-  background: url('Content/backround.jpg') repeat-x;
+  background: url('Content/backround.jpg') repeat-x !important;
   animation: scrollBackground 200s linear infinite;
   height: 100vh;
 }

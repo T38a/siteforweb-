@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  .container-width{
+    width:90%;
+    max-width:1150px;
+    margin:0 auto;
+  }
+  .flex-sect{
+    background-color:#fafafa;
+    padding:100px 0;
+    font-family:Helvetica, serif;
+  }
+  .flex-title{
+    margin-bottom:15px;
+    font-size:2em;
+    text-align:center;
+    font-weight:700;
+    color:rgb(0, 0, 0)000;
+    padding:5px;
+  }
+  .flex-desc{
+    margin-bottom:55px;
+    font-size:1em;
+    color:rgba(0, 0, 0, 0.5);
+    text-align:center;
+    padding:5px;
+  }
+  .cards{
+    padding:20px 0;
+    display:flex;
+    justify-content:space-around;
+    flex-flow:wrap;
+  }
+  .card{
+    background-color:white;
+    height:300px;
+    width:300px;
+    margin-bottom:30px;
+    box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius:2px;
+    transition:all 0.5s ease;
+    font-weight:100;
+    overflow:hidden;
+  }
+  .card:hover{
+    margin-top:-5px;
+    box-shadow:0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card-header{
+    height:155px;
+    background-image:url("https://via.placeholder.com/350x250/78c5d6/fff");
+    background-size:cover;
+    background-position:center center;
+  }
+  .card-header.ch2{
+    background-image:url("https://via.placeholder.com/350x250/459ba8/fff");
+  }
+  .card-header.ch3{
+    background-image:url("https://via.placeholder.com/350x250/79c267/fff");
+  }
+  .card-header.ch4{
+    background-image:url("https://via.placeholder.com/350x250/c5d647/fff");
+  }
+  .card-header.ch5{
+    background-image:url("https://via.placeholder.com/350x250/f28c33/fff");
+  }
+  .card-header.ch6{
+    background-image:url("https://via.placeholder.com/350x250/e868a2/fff");
+  }
+  .card-body{
+    padding:15px 15px 5px 15px;
+    color:#555;
+  }
+  .card-title{
+    font-size:1.4em;
+    margin-bottom:5px;
+  }
+  .card-sub-title{
+    color:#b3b3b3;
+    font-size:1em;
+    margin-bottom:20px;
+  }
+  .card-desc{
+    font-size:0.85rem;
+    line-height:17px;
+  }
+  #i6oi{
+    font-family:Brush Script MT, sans-serif;
+  }
+  #iegct{
+    height:700px;
+    min-height:100px;
+  }
+  #ibkfj{
+    float:none;
+    color:rgba(0, 0, 0, 0.5);
+    opacity:1;
+    border:0px solid #000000;
+  }
+  #ir3or{
+    padding:10px;
+    float:none;
+    text-align:center;
+  }
+  #iwf1j{
+    background-repeat:repeat, ;
+    background-position:left top, center center;
+    background-attachment:scroll, ;
+    background-size:auto, cover;
+    background-image:none, url('https://cdn.discordapp.com/attachments/1224779955729076234/1224780311150198804/image.png?ex=6631318d&is=661ebc8d&hm=9080f6caf516eaf955483118bc02e09a061c5012cf4486ebd337e3ae0dc562ea&');
+  }
+  #izcf3{
+    padding:15px 20px 5px 15px;
+  }
+  #i8tqo{
+    float:left;
+    text-align:justify;
+    text-decoration:none;
+    font-size:0.95em;
+  }
+  #i8kvu{
+    font-size:0.9em;
+  }
+  #inyj6{
+    background-image:url('https://cdn.discordapp.com/attachments/1219721604100132887/1219721731053322240/image.png?ex=66313f62&is=661eca62&hm=be2c5015d39c1e7c33cd311a94f47d78dead02afb0f685cc7dadd71d35303d86&');
+  }
+  #iwpjm{
+    font-size:0.9em;
+  }
+  #igehl{
+    background-image:url('https://cdn.discordapp.com/attachments/1219376073012412486/1219376844776935464/image.png?ex=662ffe2e&is=661d892e&hm=36150c7b70ac55f384e8919f690ff70a8b1f59905ce9f2f6c290343987357965&');
+  }
+  #i75to{
+    background-image:url('https://cdn.discordapp.com/attachments/1219387732929810632/1229877161939308666/image.png?ex=6631475d&is=661ed25d&hm=acd9c0848d19952bd667e5c83bc473e86f28eba3aaf6869f5d48098bb469fdbb&');
+  }
+  #i5hpf{
+    background-image:url('https://cdn.discordapp.com/attachments/1219377278950314104/1229877948455190538/image.png?ex=66314818&is=661ed318&hm=6f66fe94014111ea206f85e95b054fa507acec4f54711d9f226631ff574edc39&');
+    perspective:17px;
+    height:182px;
+    width:300px;
+    padding:9px 5px 5px 0px;
+    top:-7px;
+    float:none;
+    display:flex;
+  }
+  #ie2j2{
+    padding:15px 15px 5px 15px;
+    width:300px;
+    height:300px;
+  }
+  #i205l{
+    background-image:url('https://cdn.discordapp.com/attachments/1219407840075321496/1219407923265142855/image.png?ex=66301b20&is=661da620&hm=f0f4f57409e0ba8d0d197d5d281900570ad43a4b42de3764ddebb1ad5df8e8a3&');
+  }
+  
